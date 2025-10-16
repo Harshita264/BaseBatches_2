@@ -1,0 +1,170 @@
+.container {
+  min-height: 100vh;
+  background: #000000;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  padding: 20px;
+  background: #1a1a1a;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(255, 255, 255, 0.1);
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0;
+}
+
+.main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.errorMessage {
+  background: #2a0a0a;
+  border: 2px solid #ff4444;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 20px;
+  color: #ff6b6b;
+  text-align: center;
+}
+
+.infoCard {
+  background: #1a1a1a;
+  border-radius: 12px;
+  padding: 30px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 8px rgba(255, 255, 255, 0.1);
+}
+
+.infoSection {
+  margin-bottom: 24px;
+}
+
+.infoSection:last-child {
+  margin-bottom: 0;
+}
+
+.label {
+  display: block;
+  font-size: 0.9rem;
+  color: #aaaaaa;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.address {
+  font-family: 'Courier New', monospace;
+  font-size: 1rem;
+  color: #ffffff;
+  background: #2a2a2a;
+  padding: 12px;
+  border-radius: 6px;
+  word-break: break-all;
+  margin: 0;
+}
+
+.balance {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #0052ff;
+  margin: 0;
+}
+
+.signCard {
+  background: #1a1a1a;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 2px 8px rgba(255, 255, 255, 0.1);
+}
+
+.signTitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin: 0 0 24px 0;
+}
+
+.input {
+  width: 100%;
+  padding: 14px;
+  font-size: 1rem;
+  border: 2px solid #333333;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  transition: border-color 0.3s;
+  box-sizing: border-box;
+  background: #2a2a2a;
+  color: #ffffff;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #0052ff;
+}
+
+.input::placeholder {
+  color: #666666;
+}
+
+.button {
+  background: #0052ff;
+  color: white;
+  border: none;
+  padding: 14px 32px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+  width: 100%;
+}
+
+.button:hover:not(:disabled) {
+  background: #0041cc;
+}
+
+.button:disabled {
+  background: #444444;
+  cursor: not-allowed;
+  color: #888888;
+}
+
+.signatureSection {
+  margin-top: 24px;
+  padding-top: 24px;
+  border-top: 1px solid #333333;
+}
+
+.signature {
+  font-family: 'Courier New', monospace;
+  font-size: 0.85rem;
+  color: #ffffff;
+  background: #2a2a2a;
+  padding: 12px;
+  border-radius: 6px;
+  word-break: break-all;
+  margin: 0;
+}
+
+.connectPrompt {
+  text-align: center;
+  padding: 60px 20px;
+  background: #1a1a1a;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(255, 255, 255, 0.1);
+}
+
+.connectPrompt p {
+  font-size: 1.2rem;
+  color: #aaaaaa;
+  margin: 0;
+}
